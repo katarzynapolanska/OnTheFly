@@ -1,0 +1,57 @@
+* {
+    text-align: center;
+    justify-content: center;
+}
+body {
+    background: url("bg.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    width: 50%;
+    height: 50%;
+    padding: 2rem;
+    margin: 3rem auto;
+    background-color: rgba(255, 221, 221, 0.425);
+}
+
+table, th, tr, td{
+	border: 1px solid rgba(45, 6, 90, 0.37);
+	padding: 3px 8px;
+    font-size: large;
+}
+
+.add {
+    margin: 2rem;
+}
+
+input[type=text],
+input[type=date],
+textarea{
+    background: none;
+    color: black;
+    border: none;
+    border-bottom: 1px solid rgba(45, 6, 90, 0.37);
+    width: 50%;
+    padding: 1%;
+}
+
+input[type=submit], .back{
+    background: none;
+    border: 1px solid rgba(45, 6, 90, 0.37);
+    margin: 2%;
+    padding: 1%;
+    width: 25%;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+input[type=submit]:hover,.a:hover{
+    background-color: rgba(147, 118, 151, 0.342);
+}
+
+label {
+    font-size: 1rem;
+}
